@@ -1,0 +1,38 @@
+/* <style type ="text/css">*/
+body{
+    text-align: left;
+    color:rgb(245, 243, 250);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size:30px;
+    background-image: url(a1.jpg);
+    background-size: cover;
+}
+header{
+    background-image:url(a1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}

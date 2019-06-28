@@ -1,0 +1,77 @@
+/* <style type ="text/css">*/
+body{
+    text-align: left;
+    color:rgb(245, 243, 250);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size:30px;
+    background-image: url(x.jpg);
+    background-size: cover;
+   background-position: center;
+}
+
+
+h1{
+    text-align: center;
+    color:rgb(41, 5, 5);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size:50px;
+
+
+}
+h2{
+    text-align: center;
+    color:rgb(110, 31, 31);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:50px;
+
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top:30px;
+}
+
+    ul li {
+       text-size-adjust: 5px; 
+        text-decoration: none;
+        color: rgb(109, 204, 241);
+        padding: 5px 20px;
+        border: 1px solid rgb(252, 248, 248);
+    }
+    .svgclass {
+        background-color:gray;
+        float:left;
+        width:70%;
+        color:rgb(182, 145, 145);
+        padding:10px;
+        box-sizing:border-box;
+        opacity: 0.5;
+    }
+circle{
+	fill:white; transition: 5s fill;
+}
+circle:hover {
+	opacity: 0.5;
+    }
+    .block {
+    
+            float:left;
+            width:33.333%;
+            box-sizing: border-box;
+            padding:10px;
+            
+        } 
+        
+         
+.logo img{
+    float: left;
+    width:300px;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+ 

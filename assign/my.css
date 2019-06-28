@@ -1,0 +1,169 @@
+/* <style type="text/css"> */
+body {
+text-align: center;
+background-color: rgb(255, 255, 255);
+padding: 100px;
+padding-top: 10px;
+}
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color:rosybrown;
+color: white;
+}
+h2 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;
+background-color: brown;
+}
+.svgClass {
+background-color:gray;
+float:left;
+width:70%;
+color:#fff;
+padding:10px;
+box-sizing:border-box;
+}
+
+polygon{
+fill:white; 
+transition: 1s fill;
+}
+
+polygon:hover {
+fill: rgb(255, 255, 255);
+}
+
+.lideta { 
+    stroke:yellow;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(209, 125, 69);
+    fill-opacity: 50%;
+}
+
+.kirkos{
+    stroke:greenyellow;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(17, 170, 197);
+    fill-opacity: 10%;}
+.nifas-silk{
+    stroke:rgb(159, 43, 194);
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(213, 228, 146); 
+    fill-opacity: 50%;
+}
+
+.akaki-kaliti {
+    stroke:rgb(230, 3, 97);
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgba(255, 0, 0, 0.808);
+    fill-opacity: 10%;
+}
+
+.yeka{
+    stroke:rgb(0, 11, 110);
+    stroke-width: 2px;
+    stroke-dasharray: 3;
+    fill:rgb(205, 247, 127);
+    fill-opacity: 10%;
+}
+
+.bole{
+    stroke:green;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(253, 114, 179); 
+    fill-opacity: 10%;
+}
+
+.kolfe-keraniyo{
+    stroke: rgb(129, 41, 125);
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(177, 128, 241); 
+    fill-opacity: 50%;
+}
+
+.addis-ketema{
+    stroke:palegoldenrod;
+    stroke-width: 2px;
+    stroke-dasharray: 3;
+    fill:rgb(240, 205, 108);
+    fill-opacity: 50%;
+}
+
+.arada{stroke:peru;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(54, 58, 114); 
+    fill-opacity: 50%;
+}
+
+.gulele{
+    stroke:orange;
+    stroke-width: 2px; 
+    stroke-dasharray: 3; 
+    fill:rgb(69, 87, 7);
+    fill-opacity: 50%;
+}
+.removed{
+display: none;
+}
+button{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    background:gray;
+    border:none;
+    outline: none;
+    left: 0%;
+    width: 260px;
+    text-align: left;
+}
+#button:hover{
+    fill: rgb(221, 83, 83);
+}
+#sidebar{
+    text-align: left;
+    float:right;
+    width:30%;
+    background:none;
+    color:#fff;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* <style type ="text/css">*/
+body{
+    text-align: left;
+    color:rgb(245, 243, 250);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size:30px;
+    background-color: antiquewhite;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
